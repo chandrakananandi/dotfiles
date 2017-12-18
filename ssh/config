@@ -42,27 +42,27 @@ Host discoberry10
 
 Host warfa
   HostName warfa.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host uwplse
   HostName uwplse.org
-  User ztatlock
+  User cnandi
 
 Host reincarnate
   HostName reincarnate.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host sysv
   HostName sysv.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host hobo
   HostName hobo.sysnet.ucsd.edu
-  User ztatlock
+  User cnandi
 
 Host goto
   HostName goto.ucsd.edu
-  User ztatlock
+  User cnandi
 
 Host scara
   HostName scara.cs.washington.edu
@@ -74,23 +74,19 @@ Host robosalmon
 
 Host barb
   HostName barb.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host recycle
   HostName recycle.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host bicycle
   HostName bicycle.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host tricycle
   HostName tricycle.cs.washington.edu
-  User ztatlock
-
-Host tch
-  HostName totalcrazyhack.net
-  User ztatlock
+  User cnandi
 
 Host plseaudio
   HostName plseaudio.cs.washington.edu
@@ -98,7 +94,7 @@ Host plseaudio
 
 Host klaatu
   HostName klaatu.cs.washington.edu
-  User ztatlock
+  User cnandi
 
 Host *
     AddKeysToAgent yes
