@@ -1,45 +1,3 @@
-Host discoberry01
-  HostName discoberry01.duckdns.org
-  User pi
-
-Host discoberry02
-  HostName discoberry02.duckdns.org
-  User pi
-
-Host discoberry03
-  HostName discoberry03.duckdns.org
-  User pi
-
-Host discoberry04
-  HostName discoberry04.duckdns.org
-  User pi
-
-Host discoberry05
-  HostName discoberry05.duckdns.org
-  User pi
-
-Host discoberry06
-  HostName discoberry06.duckdns.org
-  User pi
-
-Host discoberry07
-  HostName discoberry07.duckdns.org
-  User pi
-
-Host discoberry08
-  HostName discoberry08.duckdns.org
-  User pi
-
-Host discoberry09
-  HostName discoberry09.duckdns.org
-  User pi
-
-Host discoberry10
-  HostName discoberry10.duckdns.org
-  User pi
-
-
-
 Host warfa
   HostName warfa.cs.washington.edu
   User cnandi
@@ -56,17 +14,6 @@ Host sysv
   HostName sysv.cs.washington.edu
   User cnandi
 
-Host hobo
-  HostName hobo.sysnet.ucsd.edu
-  User cnandi
-
-Host goto
-  HostName goto.ucsd.edu
-  User cnandi
-
-Host scara
-  HostName scara.cs.washington.edu
-  User zach
 
 Host robosalmon
   HostName robosalmon.cs.washington.edu
@@ -74,6 +21,14 @@ Host robosalmon
 
 Host barb
   HostName barb.cs.washington.edu
+  User cnandi
+
+Host boom
+  HostName boom.cs.washington.edu
+  User cnandi
+
+Host bam
+  HostName bam.cs.washington.edu
   User cnandi
 
 Host recycle
