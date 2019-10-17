@@ -63,3 +63,16 @@ autocmd BufWinLeave * call clearmatches()
 
 " remove trailing whitespace
 autocmd FileType tex,sh,v,ml autocmd BufWritePre <buffer> %s/\s\+$//e
+
+let g:racer_experimental_completer = 1
+au FileType rust nmap gd <Plug>(rust-def)
+au FileType rust nmap gs <Plug>(rust-def-vertical)
+au FileType rust nmap gx <Plug>(rust-def-split)
+au FileType rust nmap gh <Plug>(rust-doc)
+let g:ale_completion_enabled = 1
+let g:ale_rust_rls_toolchain = ""
+let g:ale_linters = {
+\  'rust': ['rls'],
+\}
+packloadall
+silent! helptags ALL
